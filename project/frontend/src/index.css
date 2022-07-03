@@ -1,0 +1,45 @@
+.slider img,
+.card-image {
+  height: 450px;
+  object-fit: contain;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+/* Banner */
+.banner-main {
+  min-height: 400px;
+  background-image: url("https://unsplash.com/photos/hGV2TfOh0ns/download?force=true&w=1920");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+}
+.banner {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner h1 {
+  font-size: 40px;
+  font-weight: bolder;
+  color: #03a9f4;
+}
+
+.custom_button_common {
+  background-color: #03a9f4;
+  color: #fff;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 0;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.custom_button_common:hover {
+  text-decoration: none;
+  color: #fff;
+}
